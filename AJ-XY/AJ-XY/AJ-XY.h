@@ -10,6 +10,7 @@
 #define AJ_XY_h
 
 #import "UIColor+AJExtension.h"
+#import "UIView+AJExtention.h"
 
 
 

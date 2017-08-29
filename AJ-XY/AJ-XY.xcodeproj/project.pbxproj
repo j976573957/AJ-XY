@@ -10,6 +10,9 @@
 		302C16321F54409E00064D7A /* AJNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C16311F54409E00064D7A /* AJNavViewController.m */; };
 		302C16371F54427D00064D7A /* UIImage+AJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C16361F54427D00064D7A /* UIImage+AJExtension.m */; };
 		302C163A1F5442A400064D7A /* UIColor+AJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 302C16391F5442A400064D7A /* UIColor+AJExtension.m */; };
+		30456E7B1F558B0E00B767A0 /* UIBarButtonItem+AJExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 30456E7A1F558B0E00B767A0 /* UIBarButtonItem+AJExtention.m */; };
+		30456E7E1F558F2400B767A0 /* UIView+AJExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 30456E7D1F558F2400B767A0 /* UIView+AJExtention.m */; };
+		30456E811F55943500B767A0 /* AJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30456E801F55943500B767A0 /* AJBaseViewController.m */; };
 		30B0782A1F45B97000B91244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B078291F45B97000B91244 /* Assets.xcassets */; };
 		30B078381F45B97000B91244 /* AJ_XYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B078371F45B97000B91244 /* AJ_XYTests.m */; };
 		30B078431F45B97000B91244 /* AJ_XYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B078421F45B97000B91244 /* AJ_XYUITests.m */; };
@@ -43,6 +46,12 @@
 		302C16381F5442A400064D7A /* UIColor+AJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AJExtension.h"; sourceTree = "<group>"; };
 		302C16391F5442A400064D7A /* UIColor+AJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AJExtension.m"; sourceTree = "<group>"; };
 		302C163C1F54F5C300064D7A /* AJ-XY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJ-XY.h"; sourceTree = "<group>"; };
+		30456E791F558B0E00B767A0 /* UIBarButtonItem+AJExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+AJExtention.h"; sourceTree = "<group>"; };
+		30456E7A1F558B0E00B767A0 /* UIBarButtonItem+AJExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+AJExtention.m"; sourceTree = "<group>"; };
+		30456E7C1F558F2400B767A0 /* UIView+AJExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AJExtention.h"; sourceTree = "<group>"; };
+		30456E7D1F558F2400B767A0 /* UIView+AJExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AJExtention.m"; sourceTree = "<group>"; };
+		30456E7F1F55943500B767A0 /* AJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJBaseViewController.h; sourceTree = "<group>"; };
+		30456E801F55943500B767A0 /* AJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJBaseViewController.m; sourceTree = "<group>"; };
 		30B0781A1F45B97000B91244 /* AJ-XY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AJ-XY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B078291F45B97000B91244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B0782E1F45B97000B91244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +100,10 @@
 				302C16361F54427D00064D7A /* UIImage+AJExtension.m */,
 				302C16381F5442A400064D7A /* UIColor+AJExtension.h */,
 				302C16391F5442A400064D7A /* UIColor+AJExtension.m */,
+				30456E791F558B0E00B767A0 /* UIBarButtonItem+AJExtention.h */,
+				30456E7A1F558B0E00B767A0 /* UIBarButtonItem+AJExtention.m */,
+				30456E7C1F558F2400B767A0 /* UIView+AJExtention.h */,
+				30456E7D1F558F2400B767A0 /* UIView+AJExtention.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -250,10 +263,12 @@
 		30C319601F5437320046F457 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				30C319751F5438F00046F457 /* AJTabBarController.h */,
-				30C319761F5438F00046F457 /* AJTabBarController.m */,
 				302C16301F54409E00064D7A /* AJNavViewController.h */,
 				302C16311F54409E00064D7A /* AJNavViewController.m */,
+				30C319751F5438F00046F457 /* AJTabBarController.h */,
+				30C319761F5438F00046F457 /* AJTabBarController.m */,
+				30456E7F1F55943500B767A0 /* AJBaseViewController.h */,
+				30456E801F55943500B767A0 /* AJBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -510,7 +525,10 @@
 				30C319771F5438F00046F457 /* AJTabBarController.m in Sources */,
 				30C319731F5437320046F457 /* AppDelegate.m in Sources */,
 				302C16321F54409E00064D7A /* AJNavViewController.m in Sources */,
+				30456E7E1F558F2400B767A0 /* UIView+AJExtention.m in Sources */,
+				30456E811F55943500B767A0 /* AJBaseViewController.m in Sources */,
 				302C163A1F5442A400064D7A /* UIColor+AJExtension.m in Sources */,
+				30456E7B1F558B0E00B767A0 /* UIBarButtonItem+AJExtention.m in Sources */,
 				302C16371F54427D00064D7A /* UIImage+AJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

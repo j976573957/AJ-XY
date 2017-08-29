@@ -27,11 +27,11 @@
 {
     childVC.title = title;
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
-    attrs[NSForegroundColorAttributeName] = [UIColor ]
+    attrs[NSForegroundColorAttributeName] = [UIColor aj_colorWithHex:@"0x313131"];
     [childVC.tabBarItem setTitleTextAttributes:attrs forState:UIControlStateNormal];
     NSMutableDictionary *attrs_sel = [NSMutableDictionary dictionary];
+    attrs_sel[NSForegroundColorAttributeName] = [UIColor aj_colorWithHex:@"0xf75355"];
     [childVC.tabBarItem setTitleTextAttributes:attrs_sel forState:UIControlStateSelected];
-    
     childVC.tabBarItem.image = [UIImage imageNamed:image];
     if ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0) {
         childVC.tabBarItem.selectedImage = [[UIImage imageNamed:selImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
