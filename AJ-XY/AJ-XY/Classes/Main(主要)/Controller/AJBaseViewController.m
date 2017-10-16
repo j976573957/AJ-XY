@@ -24,6 +24,7 @@
 {
     [super viewWillAppear:animated];
     self.navigationController.navigationBar.translucent = NO;//导航栏不透明
+    
 }
 
 @end

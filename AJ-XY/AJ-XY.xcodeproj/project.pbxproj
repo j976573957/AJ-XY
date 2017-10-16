@@ -16,6 +16,13 @@
 		30B0782A1F45B97000B91244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B078291F45B97000B91244 /* Assets.xcassets */; };
 		30B078381F45B97000B91244 /* AJ_XYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B078371F45B97000B91244 /* AJ_XYTests.m */; };
 		30B078431F45B97000B91244 /* AJ_XYUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B078421F45B97000B91244 /* AJ_XYUITests.m */; };
+		30BA1EE31F94D7D500FCF4F8 /* AJDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA1EE21F94D7D500FCF4F8 /* AJDiscoverViewController.m */; };
+		30BA1EE61F94D7E300FCF4F8 /* AJSubscriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA1EE51F94D7E300FCF4F8 /* AJSubscriptionViewController.m */; };
+		30BA1EE91F94D84700FCF4F8 /* AJPlayBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA1EE81F94D84700FCF4F8 /* AJPlayBaseViewController.m */; };
+		30BA1EEC1F94D88400FCF4F8 /* AJPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA1EEB1F94D88400FCF4F8 /* AJPlayViewController.m */; };
+		30BA1EEF1F94D89200FCF4F8 /* AJDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA1EEE1F94D89200FCF4F8 /* AJDownloadViewController.m */; };
+		30BA1EF21F94D8A900FCF4F8 /* AJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA1EF11F94D8A900FCF4F8 /* AJMineViewController.m */; };
+		30BA1EF51F94DBD000FCF4F8 /* AJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BA1EF41F94DBD000FCF4F8 /* AJTabBar.m */; };
 		30C319731F5437320046F457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C319641F5437320046F457 /* AppDelegate.m */; };
 		30C319741F5437320046F457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C319651F5437320046F457 /* main.m */; };
 		30C319771F5438F00046F457 /* AJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C319761F5438F00046F457 /* AJTabBarController.m */; };
@@ -61,6 +68,20 @@
 		30B0783E1F45B97000B91244 /* AJ-XYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AJ-XYUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B078421F45B97000B91244 /* AJ_XYUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJ_XYUITests.m; sourceTree = "<group>"; };
 		30B078441F45B97000B91244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30BA1EE11F94D7D500FCF4F8 /* AJDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDiscoverViewController.h; sourceTree = "<group>"; };
+		30BA1EE21F94D7D500FCF4F8 /* AJDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDiscoverViewController.m; sourceTree = "<group>"; };
+		30BA1EE41F94D7E300FCF4F8 /* AJSubscriptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJSubscriptionViewController.h; sourceTree = "<group>"; };
+		30BA1EE51F94D7E300FCF4F8 /* AJSubscriptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSubscriptionViewController.m; sourceTree = "<group>"; };
+		30BA1EE71F94D84700FCF4F8 /* AJPlayBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJPlayBaseViewController.h; sourceTree = "<group>"; };
+		30BA1EE81F94D84700FCF4F8 /* AJPlayBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJPlayBaseViewController.m; sourceTree = "<group>"; };
+		30BA1EEA1F94D88400FCF4F8 /* AJPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJPlayViewController.h; sourceTree = "<group>"; };
+		30BA1EEB1F94D88400FCF4F8 /* AJPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJPlayViewController.m; sourceTree = "<group>"; };
+		30BA1EED1F94D89200FCF4F8 /* AJDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDownloadViewController.h; sourceTree = "<group>"; };
+		30BA1EEE1F94D89200FCF4F8 /* AJDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDownloadViewController.m; sourceTree = "<group>"; };
+		30BA1EF01F94D8A900FCF4F8 /* AJMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJMineViewController.h; sourceTree = "<group>"; };
+		30BA1EF11F94D8A900FCF4F8 /* AJMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJMineViewController.m; sourceTree = "<group>"; };
+		30BA1EF31F94DBD000FCF4F8 /* AJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJTabBar.h; sourceTree = "<group>"; };
+		30BA1EF41F94DBD000FCF4F8 /* AJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJTabBar.m; sourceTree = "<group>"; };
 		30C319631F5437320046F457 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30C319641F5437320046F457 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		30C319651F5437320046F457 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -198,6 +219,8 @@
 		30C319581F5437320046F457 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				30BA1EE11F94D7D500FCF4F8 /* AJDiscoverViewController.h */,
+				30BA1EE21F94D7D500FCF4F8 /* AJDiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,6 +252,8 @@
 		30C3195C1F5437320046F457 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				30BA1EED1F94D89200FCF4F8 /* AJDownloadViewController.h */,
+				30BA1EEE1F94D89200FCF4F8 /* AJDownloadViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,6 +294,8 @@
 				30C319761F5438F00046F457 /* AJTabBarController.m */,
 				30456E7F1F55943500B767A0 /* AJBaseViewController.h */,
 				30456E801F55943500B767A0 /* AJBaseViewController.m */,
+				30BA1EE71F94D84700FCF4F8 /* AJPlayBaseViewController.h */,
+				30BA1EE81F94D84700FCF4F8 /* AJPlayBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -293,6 +320,8 @@
 		30C319661F5437320046F457 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				30BA1EF31F94DBD000FCF4F8 /* AJTabBar.h */,
+				30BA1EF41F94DBD000FCF4F8 /* AJTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -310,6 +339,8 @@
 		30C319681F5437320046F457 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				30BA1EF01F94D8A900FCF4F8 /* AJMineViewController.h */,
+				30BA1EF11F94D8A900FCF4F8 /* AJMineViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -341,6 +372,8 @@
 		30C3196C1F5437320046F457 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				30BA1EEA1F94D88400FCF4F8 /* AJPlayViewController.h */,
+				30BA1EEB1F94D88400FCF4F8 /* AJPlayViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -372,6 +405,8 @@
 		30C319701F5437320046F457 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				30BA1EE41F94D7E300FCF4F8 /* AJSubscriptionViewController.h */,
+				30BA1EE51F94D7E300FCF4F8 /* AJSubscriptionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -452,6 +487,7 @@
 		30B078121F45B97000B91244 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AJ;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = AJ.com;
 				TargetAttributes = {
@@ -521,15 +557,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BA1EE91F94D84700FCF4F8 /* AJPlayBaseViewController.m in Sources */,
 				30C319741F5437320046F457 /* main.m in Sources */,
 				30C319771F5438F00046F457 /* AJTabBarController.m in Sources */,
+				30BA1EE31F94D7D500FCF4F8 /* AJDiscoverViewController.m in Sources */,
 				30C319731F5437320046F457 /* AppDelegate.m in Sources */,
+				30BA1EEF1F94D89200FCF4F8 /* AJDownloadViewController.m in Sources */,
 				302C16321F54409E00064D7A /* AJNavViewController.m in Sources */,
+				30BA1EF21F94D8A900FCF4F8 /* AJMineViewController.m in Sources */,
 				30456E7E1F558F2400B767A0 /* UIView+AJExtention.m in Sources */,
 				30456E811F55943500B767A0 /* AJBaseViewController.m in Sources */,
 				302C163A1F5442A400064D7A /* UIColor+AJExtension.m in Sources */,
+				30BA1EEC1F94D88400FCF4F8 /* AJPlayViewController.m in Sources */,
+				30BA1EF51F94DBD000FCF4F8 /* AJTabBar.m in Sources */,
 				30456E7B1F558B0E00B767A0 /* UIBarButtonItem+AJExtention.m in Sources */,
 				302C16371F54427D00064D7A /* UIImage+AJExtension.m in Sources */,
+				30BA1EE61F94D7E300FCF4F8 /* AJSubscriptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
