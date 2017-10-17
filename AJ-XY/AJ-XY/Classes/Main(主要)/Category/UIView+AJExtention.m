@@ -49,7 +49,7 @@
 - (void)setAj_centerY:(CGFloat)aj_centerY
 {
     CGPoint tempPoint = self.center;
-    tempPoint.x = aj_centerY;
+    tempPoint.y = aj_centerY;
     self.center = tempPoint;
 }
 
