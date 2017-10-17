@@ -13,6 +13,7 @@
 #import "AJPlayViewController.h"
 #import "AJDownloadViewController.h"
 #import "AJMineViewController.h"
+#import "AJTabBar.h"
 
 @interface AJTabBarController ()
 
@@ -28,7 +29,7 @@
     [self setupChildViewControllers];
     
     /** 2.更换系统tabard */
-    
+    [self setValue:[AJTabBar new] forKeyPath:@"tabBar"];
     
 }
 
